@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/images/LoginBackgroundImg.png') no-repeat center center/cover;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+header {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+main {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+
+}
+.hero-content {
+    background-color: #0000009c;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.hero-content h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 0.7em;
+    color: rgb(105, 105, 105);
+    margin-bottom: 5px;
+}
+
+.hero-content div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    font-size: 0.7em;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+.email, .input{
+    background: #2e2e2e;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    color: rgb(105, 105, 105);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.features{
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-text {
+    width: 40vw;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(126, 126, 126);
+}
+
+.features img {
+    height: 20vw;
+}
+.features .features-text h2 {
+    font-size: 0.8em;
+    /* width: 60vw; */
+}
+
+.features .features-text p {
+    font-size: 0.5em;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .hero-content{
+        width: 300px;
+    }
+    .hero-content h1 {
+        font-size: 1.2em;
+    }
+    
+    .hero p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero h1 {
+        font-size: 4em;
+    }
+}
+
+
